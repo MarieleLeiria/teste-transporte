@@ -48,5 +48,4 @@ $needToRefuel = $countTravel - 1;
 $fuelConsumption = ($totalDist - $maxDist) / 4;
 if ($countTravel > 1) {
     echo "Você tem um total de " . $totalDist . "Km's hoje. Para que todas as viagens possam ser realizadas você necessitará de mais " . $fuelConsumption . " litros de combustível, abasteça " . $needToRefuel . "x.";
-    //echo "saida teste  " . $needToRefuel;
 }
